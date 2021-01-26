@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" crossorigin="anonymous" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>ID MEO | Area de cliente moche</title>
+</head>
+<body>
+    
+    <div class="cabecalho">
+		<img src="img/fechadura_login.png" alt="logo moche">
+    </div>
+
+        <form class="form-signin was-validated" method="POST" 
+		th:action="#">
+		<div class="text-center mb-4">
+			<img class="mb-4" src="img/logo_ID.png" alt=""
+				width="60" height="60">
+			<h1 class="h3 mb-3 font-weight-bold">Entra com o teu ID </h1>
+		</div>
+
+		<div class="form-label-group">
+			<input type="text" id="inputEmail" class="form-control"
+				placeholder="Email address" name="username" required autofocus>
+			<label for="inputEmail">Email</label>
+			<div class="invalid-feedback">Insere o teu Email.</div>
+		</div>
+
+		<div class="form-label-group">
+			<input type="password" id="inputPassword" class="form-control"
+				placeholder="Password" name="password" required> 
+			<label for="inputPassword">Senha</label>
+			<div class="invalid-feedback">Insere a tua Password.</div>	
+		</div>
+		Esqueci-me do <a href="#">email</a> ou <a href="#">password</a> <br>
+
+		<br>
+		<button class="btn btn-lg btn-block botaoEntrar" type="submit">Entrar</button>
+		ou entrar com...
+		<nav>
+			<a class="linkRedesSocial text-center " target="_blank" href="https://www.linkedin.com/in/quitumba-culyssander-5a598618a/"><i class="fab fa-linkedin-in"></i></i></a>
+			<a class="linkRedesSocial text-center " target="_blank" href="https://www.github.com/culyssander"><i class="fab fa-github"></i></a>
+			<a class="linkRedesSocial text-center" target="_blank" href="https://www.instagram.com/culyssander/"><i class="fab fa-instagram"></i></a>
+			<a class="linkRedesSocial text-center" target="_blank" href="https://www.facebook.com/culyssander/"><i class="fab fa-facebook-f"></i></a>
+		</nav>
+		<button class="mt-5 mb-3 text-center btn btn-block btn-lg botaoRegistar" href="#">Registar o meu moche</button>
+		<p class="mt-5 mb-3 text-muted text-center">Desenvolvido por Quitumba Ferreira &copy; 2021</p>
+	</form>
+
+	<footer class="rodape">
+        um único ID para todos os serviços meo e moche
+    </footer>
+</body>
+</html>
